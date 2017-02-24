@@ -15,3 +15,10 @@ This project uses an STM32F0-Discovery using CubeMX and Eclipse with board Tiny 
 The main objective was to reinforce the learning of I2C Protocol studied in Accessing Memory.
 
 It isn't completed because the main objective has done, in other words, read and write commands of RTC DS1307 are made with successful.
+
+
+## Internal Reference Voltage
+Just to try to use the Internal Reference Voltage to measure actual power supply, useful in projects in future.
+
+## Sequencial ADC Reading with DMA
+A circular buffer to acquisition two Analog Channels and the Internal Reference Voltage in DMA mode then show these voltages.
